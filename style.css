@@ -1,8 +1,22 @@
 *{
-    color: rgb(53, 102, 158);
+    color: rgb(83, 135, 196);
     font-family: arial;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
     background-color: rgb(39, 39, 39);
   }
+
+.center{
+    text-align: center;
+}
+
+div{
+    background-color: aquamarine;
+}
+
+.logomarca{
+    width: 300px;
+}
