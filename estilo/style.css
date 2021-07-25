@@ -71,3 +71,20 @@ nav.desktop a:hover{
     text-decoration: underline;
     color: white;
 }
+
+section.banner-principal{
+    background-image: url("../estilo/images/mine-banner.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.452);
+}
