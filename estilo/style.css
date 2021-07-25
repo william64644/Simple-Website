@@ -39,3 +39,35 @@
 .w70{
     width: 70%;
 }
+
+header{
+    background-color: rgb(84, 162, 207);
+    padding: 20px 0;
+}
+
+.mobile{
+    display: none;
+}
+
+nav.desktop ul{
+    list-style-type: none;
+}
+
+nav.desktop li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 30px;
+    font-weight: 400;
+}
+
+nav.desktop a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+nav.desktop a:hover{
+    text-decoration: underline;
+    color: white;
+}
