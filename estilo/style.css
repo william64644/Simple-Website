@@ -9,3 +9,24 @@
     width: 60px;
     height: 80px;
 }
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.clear{
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
