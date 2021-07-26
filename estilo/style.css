@@ -39,3 +39,101 @@
 .w70{
     width: 70%;
 }
+
+header{
+    background-color: rgb(84, 162, 207);
+    padding: 20px 0;
+    height: 60px;
+}
+
+.mobile{
+    display: none;
+}
+
+nav.desktop ul{
+    list-style-type: none;
+}
+
+nav.desktop li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 30px;
+    font-weight: 400;
+}
+
+nav.desktop a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 0px;
+}
+
+nav.desktop a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+section.banner-principal{
+    background-image: url("../estilo/images/mine-banner.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background:rgba(0, 0, 0, 0.452);
+}
+
+section.banner-principal form{
+    width: 98%;
+    max-width: 500px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+section.banner-principal form h2{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.banner-principal form input[type=email]{
+    width: 100%;
+    height: 66px;
+    background: white;
+    color: #333;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+section.banner-principal form input[type=submit]{
+    width: 100%;
+    height: 66px;
+    background: #a9eeff;
+    color: #333;
+    font-size: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.logo.left{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    position: relative;
+    top: -13px;
+}
