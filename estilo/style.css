@@ -43,6 +43,7 @@
 header{
     background-color: rgb(84, 162, 207);
     padding: 20px 0;
+    height: 60px;
 }
 
 .mobile{
@@ -64,7 +65,7 @@ nav.desktop a{
     text-decoration: none;
     color: white;
     position: relative;
-    top: 50px;
+    top: 0px;
 }
 
 nav.desktop a:hover{
@@ -127,4 +128,12 @@ section.banner-principal form input[type=submit]{
     margin-top: 10px;
     cursor: pointer;
     font-weight: 500;
+}
+
+.logo.left{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    position: relative;
+    top: -13px;
 }
