@@ -137,3 +137,13 @@ section.banner-principal form input[type=submit]{
     position: relative;
     top: -13px;
 }
+
+.linkhome{
+    text-decoration: none;
+    color: white;
+}
+
+.linkhome:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
