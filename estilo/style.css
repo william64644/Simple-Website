@@ -114,9 +114,11 @@ section.banner-principal form input[type=email]{
     height: 66px;
     background: white;
     color: #333;
-    font-size: 25px;
+    font-size: 32px;
     padding-left: 10px;
     margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 section.banner-principal form input[type=submit]{
@@ -147,3 +149,24 @@ section.banner-principal form input[type=submit]{
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
+
+
+
+@keyframes hoverlinkshine{
+
+    from{
+
+    }
+    to{
+      color:#67e8ff;
+    }
+}
+ 
+.shine:hover{
+
+    animation-name: hoverlinkshine;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+  
+  }
