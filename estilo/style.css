@@ -11,13 +11,14 @@
 }
 
 .center{
-    max-width: 1280px;
-    padding: 0 2%;
+    max-width: 1400px;
+    padding: 0;
     margin: 0 auto;
 }
 
 .w50{
     width: 50%;
+    padding: 0 2%;
 }
 
 .clear{
@@ -33,7 +34,9 @@
 }
 
 .w33{
-    width: 33.3%;
+    margin: 23px;
+    width: 30%;
+    
 }
 
 .w70{
@@ -170,3 +173,53 @@ section.banner-principal form input[type=submit]{
     animation-duration: 1s;
   
   }
+
+section.descricao-autor{
+    padding: 30px 0;
+}
+
+section.descricao-autor h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #444;
+}
+
+section.descricao-autor p{
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.foto{
+    width: 320px;
+    height: 320px;
+    position: relative;
+    bottom: 100px;
+}
+
+@media screen and (max-widht: 760px){
+    img{
+
+    }.w50{
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+.general-list{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #54A2CF;
+}
+
+.direitos{
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.direitos-txt{
+    margin-left: 10px;
+}
