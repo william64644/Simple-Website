@@ -34,9 +34,7 @@
 }
 
 .w33{
-    margin: 23px;
-    width: 30%;
-    
+    width: 33.3%;
 }
 
 .w70{
@@ -193,13 +191,16 @@ section.descricao-autor p{
 .foto{
     width: 320px;
     height: 320px;
-    position: relative;
-    bottom: 100px;
 }
 
 @media screen and (max-widht: 760px){
     img{
-
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        position:absolute;
+        left: 50%;
     }.w50{
         padding: 20px;
         width: 100%;
