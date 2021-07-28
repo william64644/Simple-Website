@@ -79,7 +79,7 @@ nav.desktop a:hover{
 }
 
 section.banner-principal{
-    background-image: url("../estilo/images/mine-banner.jpg");
+    background-image: url("https://picsum.photos/1920/700");
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -142,8 +142,8 @@ section.banner-principal form input[type=submit]{
     color: white;
     font-weight: 300;
     font-size: 30px;
-    position: relative;
-    top: -13px;
+    margin-left: 20px;
+    margin-top: -13px;
 }
 
 .linkhome{
@@ -217,7 +217,7 @@ footer{
 }
 
 
-@media (max-width: 670px){
+@media (max-width: 700px){
     .mobile{
         display:initial;
         margin-right: 10px;
@@ -269,4 +269,8 @@ h2.center{
     .w33.left.box-especialidade{
         width: 100%;
     }
+}
+
+.depoimento-single{
+    margin-bottom: 20px;
 }
