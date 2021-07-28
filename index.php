@@ -3,8 +3,22 @@
 date_default_timezone_set("America/Sao_Paulo");
 date("Y / d / m - h:i:s");
 
-include "html.html";
+include "setups.html";
 
+include "header.html";
+
+include "home.html";
+
+include "footer.html";
+
+
+
+
+
+
+
+
+//---- Email Register ----//
 $pdo = new pdo("mysql:host=localhost;dbname=projeto01","root","");
 
 if (isset($_POST["acao"])) {

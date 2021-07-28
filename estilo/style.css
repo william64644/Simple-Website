@@ -52,6 +52,7 @@ header{
 
 .mobile{
     display: none;
+    text-decoration: underline;
 }
 
 nav.desktop ul{
@@ -134,9 +135,10 @@ section.banner-principal form input[type=submit]{
     margin-top: 10px;
     cursor: pointer;
     font-weight: 500;
+    vertical-align: middle;
 }
 
-.logo.left{
+.logo{
     color: white;
     font-weight: 300;
     font-size: 30px;
@@ -157,9 +159,7 @@ section.banner-principal form input[type=submit]{
 
 
 @keyframes hoverlinkshine{
-
     from{
-
     }
     to{
       color:#67e8ff;
@@ -218,12 +218,19 @@ footer{
 
 
 @media (max-width: 670px){
+    .mobile{
+        display:initial;
+        margin-right: 10px;
+    }.mobli{
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        margin-left: 10px;
+    }
     .desktop.right{
         display: none;
     }
-    .mobile{
-        display:initial
-  }
+    
 }
   
 @media (max-width: 1220px){
@@ -248,12 +255,18 @@ h2.center{
 
 .box-especialidade{
     width: 31%;
-    margin: 0px 10px;
-    border-left: yellowgreen solid;
+    margin: 5px 10px;
+    border-left: rgb(178, 255, 23) solid;
     padding-left: 10px;
     
 }
 
 .title{
     margin-top: 30px;
+}
+
+@media (max-width: 880px){
+    .w33.left.box-especialidade{
+        width: 100%;
+    }
 }
