@@ -3,8 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'open sans', sans-serif;
+    color: white;
 }
 
+body{
+    background: rgb(17, 26, 41);
+}
 .small-icon{
     width: 60px;
     height: 80px;
@@ -18,7 +22,6 @@
 
 .w50{
     width: 50%;
-    padding: 0 2%;
 }
 
 .clear{
@@ -168,7 +171,7 @@ section.banner-principal form input[type=submit]{
     animation-name: hoverlinkshine;
     animation-iteration-count:infinite;
     animation-direction: alternate;
-    animation-duration: 1s;
+    animation-duration: 0.6s;
   
   }
 
@@ -179,13 +182,14 @@ section.descricao-autor{
 section.descricao-autor h2{
     font-size: 25px;
     font-weight: 400;
-    color: #444;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
 }
 
 section.descricao-autor p{
     font-size: 16px;
-    color: #444;
-    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    margin: 10px 20px 20px 20px;
 }
 
 .foto{
@@ -193,26 +197,12 @@ section.descricao-autor p{
     height: 320px;
 }
 
-@media screen and (max-widht: 760px){
-    img{
-        float: none !important;
-        display: block;
-        margin: 0 auto;
-        max-width: 500px;
-        position:absolute;
-        left: 50%;
-    }.w50{
-        padding: 20px;
-        width: 100%;
-    }
-}
-
 .general-list{
     list-style-type: none;
 }
 
 footer{
-    background-color: #54A2CF;
+    background-color: #66c7ff;
 }
 
 .direitos{
@@ -223,4 +213,47 @@ footer{
 
 .direitos-txt{
     margin-left: 10px;
+    color: black;
+}
+
+
+@media (max-width: 670px){
+    .desktop.right{
+        display: none;
+    }
+    .mobile{
+        display:initial
+  }
+}
+  
+@media (max-width: 1220px){
+    .w70{
+        width: 100%;
+    }img.right.foto{
+        position: relative;
+        right: 33.3%;
+    }
+}
+
+@media (min-width: 1220px){
+    .right.foto{
+    float: unset;
+    }
+}
+
+h2.center{
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.box-especialidade{
+    width: 31%;
+    margin: 0px 10px;
+    border-left: yellowgreen solid;
+    padding-left: 10px;
+    
+}
+
+.title{
+    margin-top: 30px;
 }
