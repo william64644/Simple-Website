@@ -21,7 +21,6 @@ if (isset($_POST["acao"])) {
     $sql = $pdo->prepare("INSERT INTO `registros` VALUES (null, ?,?)");
     $sql->execute(array($email, $momento_registro));
 
-    
 }
 
 ?>

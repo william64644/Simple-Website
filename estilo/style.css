@@ -263,6 +263,8 @@ h2.center{
 
 .title{
     margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 880px){
@@ -273,4 +275,8 @@ h2.center{
 
 .depoimento-single{
     margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.depoimento-descricao{
 }
