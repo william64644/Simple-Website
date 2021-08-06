@@ -2,6 +2,7 @@
 
 //---- Main page components ----//
 
+echo "teeesteee";
 include "setups.html";
 
 include "header.html";
