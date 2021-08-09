@@ -2,6 +2,8 @@
 
 //---- Main page components ----//
 
+echo "tesasdte"
+  
 include "setups.html";
 
 include "header.html";
