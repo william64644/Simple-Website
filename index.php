@@ -2,8 +2,6 @@
 
 //---- Main page components ----//
 
-echo "tesasssdfsdfldjkfghhlfdjte";
-
 include "setups.html";
 
 include "header.html";
