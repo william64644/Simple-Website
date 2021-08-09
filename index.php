@@ -2,6 +2,8 @@
 
 //---- Main page components ----//
 
+echo "trash";
+
 include "setups.html";
 
 include "header.html";
