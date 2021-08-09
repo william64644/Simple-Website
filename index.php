@@ -2,6 +2,8 @@
 
 //---- Main page components ----//
 
+echo "tesasdte";
+
 include "setups.html";
 
 include "header.html";
@@ -11,6 +13,7 @@ include "home.html";
 include "footer.html";
 
 //---- Email Register ----//
+
 $pdo = new pdo("mysql:host=localhost;dbname=projeto01","root","");
 
 if (isset($_POST["acao"])) {
